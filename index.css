@@ -1,0 +1,115 @@
+nav div ul li {
+    color: rgb(72, 70, 70);
+    width: auto;
+    text-align: center;
+}
+
+nav div ul li:hover {
+    text-decoration: underline;
+    color: rgb(4, 0, 0);
+}
+
+nav div a {
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-item {
+    text-align: left;
+}
+
+/*  */
+h1,
+h2,
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.img-container:hover {
+    box-shadow: 0 10px 15px rgb(49, 47, 47);
+}
+
+.card-body {
+    cursor: pointer;
+}
+
+.img1 {
+    width: 100%;
+}
+
+input {
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid rgb(149, 148, 148);
+}
+
+button {
+    border: 1px solid rgb(123, 121, 121);
+    background-color: black;
+    color: white;
+}
+
+.footer-p {
+    color: rgb(115, 115, 115);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+e {
+    color: rgb(150, 148, 148);
+}
+
+.text-pos {
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    padding-right: 2%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 130px;
+    right: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.sold-out {
+    width: 37%;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+p1{
+    padding-right: 20%;
+}
+p2{
+    padding-left: 20%;
+}
+/* @media only screen and (max-width: 1440px) and (min-width:768px) {
+    .responsive {
+        margin-left: 18%;
+    }
+    body{
+        background-color: aquamarine;
+    }
+} */
+@media only screen and (max-width: 767px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .border{
+        margin-top: 10%;
+    }
+  }
